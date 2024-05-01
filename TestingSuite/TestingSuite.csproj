@@ -8,12 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="SharedLib">
-      <HintPath>\\server1\D\NetworkFolder\PublishedProjects\SharedLib\net6.0\SharedLib.dll</HintPath>
-    </Reference>
-    <Reference Include="TaskBroker">
-      <HintPath>\\server1\D\NetworkFolder\PublishedProjects\TaskBroker\net6.0\TaskBroker.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\..\SharedLib\SharedLib\SharedLib.csproj" />
+    <ProjectReference Include="..\..\TaskBroker\TaskBroker\TaskBroker.csproj" />
   </ItemGroup>
 
 </Project>

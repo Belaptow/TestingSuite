@@ -4,6 +4,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestingSuite", "TestingSuite\TestingSuite.csproj", "{2BA4C7CE-7398-45E6-AC61-79721F3CE341}"
+	ProjectSection(ProjectDependencies) = postProject
+		{924C02B9-D7BE-4BEB-A5DF-F7C009A1F609} = {924C02B9-D7BE-4BEB-A5DF-F7C009A1F609}
+		{A53BB97F-9EEC-49B0-8DF4-6DF4E47EFA64} = {A53BB97F-9EEC-49B0-8DF4-6DF4E47EFA64}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskBroker", "..\TaskBroker\TaskBroker\TaskBroker.csproj", "{924C02B9-D7BE-4BEB-A5DF-F7C009A1F609}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedLib", "..\SharedLib\SharedLib\SharedLib.csproj", "{A53BB97F-9EEC-49B0-8DF4-6DF4E47EFA64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,14 @@ Global
 		{2BA4C7CE-7398-45E6-AC61-79721F3CE341}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BA4C7CE-7398-45E6-AC61-79721F3CE341}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BA4C7CE-7398-45E6-AC61-79721F3CE341}.Release|Any CPU.Build.0 = Release|Any CPU
+		{924C02B9-D7BE-4BEB-A5DF-F7C009A1F609}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{924C02B9-D7BE-4BEB-A5DF-F7C009A1F609}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{924C02B9-D7BE-4BEB-A5DF-F7C009A1F609}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{924C02B9-D7BE-4BEB-A5DF-F7C009A1F609}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A53BB97F-9EEC-49B0-8DF4-6DF4E47EFA64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A53BB97F-9EEC-49B0-8DF4-6DF4E47EFA64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A53BB97F-9EEC-49B0-8DF4-6DF4E47EFA64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A53BB97F-9EEC-49B0-8DF4-6DF4E47EFA64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
