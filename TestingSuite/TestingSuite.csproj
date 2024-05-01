@@ -8,8 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="BLPTW.SharedLib" Version="1.0.0" />
-    <PackageReference Include="BLPTW.TaskBroker" Version="1.0.0" />
+    <ProjectReference Include="..\..\SharedLib\SharedLib\SharedLib.csproj" />
+    <ProjectReference Include="..\..\TaskBroker\TaskBroker\TaskBroker.csproj" />
   </ItemGroup>
 
 </Project>
